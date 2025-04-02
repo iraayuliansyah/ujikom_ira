@@ -1,0 +1,94 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e4e0e2;
+}
+
+a {
+  color: #ff0080;
+  text-decoration: none;
+}
+
+/* Form Container */
+.login-container {
+  background-color: rgb(255, 255, 255);
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+  border-color: #ff66b2;
+  outline: none;
+}
+
+button {
+  width: 100%;
+  padding: 14px;
+  background-color: #ff66b2;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #da4d9f;
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px;
+}
+
+.login-container a:hover {
+  text-decoration: underline;
+}
+
+.password-container {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.password-container input {
+  flex: 1; /* Pastikan input menyesuaikan lebar tanpa berubah */
+  padding: 12px;
+  padding-right: 40px; /* Beri ruang untuk ikon */
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: Arial, sans-serif; /* Pastikan font tetap */
+}
+
+.password-container i {
+  position: absolute;
+  right: 12px;
+  cursor: pointer;
+  font-size: 18px;
+  color: #777;
+}
