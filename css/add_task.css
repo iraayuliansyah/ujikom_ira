@@ -1,77 +1,77 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 8px;
-  }
-  
-  .container {
-    max-width: 400px;
-    background: white;
-    padding: 15px;
-    margin: 0 auto;
-    border-radius: 8px;
-    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
-  }
-  
-  h1 {
-    text-align: center;
-    color: #333;
-    font-size: 18px;
-    margin-bottom: 10px;
-  }
-  
-  form {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  label {
-    font-weight: bold;
-    margin-top: 6px;
-    color: #333;
-    font-size: 12px;
-  }
-  
-  input,
-  textarea,
-  select {
-    padding: 6px;
-    margin-top: 4px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 12px;
-  }
-  
-  textarea {
-    resize: vertical;
-    min-height: 80px;
-  }
-  
-  button {
-    margin-top: 10px;
-    background-color: #d10a5d;
-    color: white;
-    border: none;
-    padding: 8px;
-    cursor: pointer;
-    border-radius: 5px;
-    font-size: 12px;
-  }
-  
-  button:hover {
-    background-color: #f898c8;
-  }
-  
-  a {
-    display: block;
-    text-align: center;
-    margin-top: 8px;
-    text-decoration: none;
-    color: #007bff;
-    font-size: 12px;
-  }
-  
-  a:hover {
-    text-decoration: underline;
-  }
+  font-family: Arial, sans-serif; /* Mengatur jenis font utama menjadi Arial atau sans-serif jika Arial tidak tersedia */
+  background-color: #f4f4f4; /* Memberi warna latar belakang halaman dengan abu-abu terang */
+  margin: 0; /* Menghilangkan margin default dari body */
+  padding: 8px; /* Memberi jarak (padding) 8px di dalam body */
+}
+
+.container {
+  max-width: 400px; /* Mengatur lebar maksimum elemen container menjadi 400px */
+  background: white; /* Memberi warna latar belakang putih pada container */
+  padding: 15px; /* Memberi ruang di dalam container sebesar 15px */
+  margin: 0 auto; /* Mengatur margin atas-bawah 0 dan kiri-kanan otomatis agar berada di tengah */
+  border-radius: 8px; /* Membuat sudut-sudut container menjadi membulat sebesar 8px */
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1); /* Menambahkan bayangan halus di sekitar container */
+}
+
+h1 {
+  text-align: center; /* Mengatur teks agar berada di tengah */
+  color: #333; /* Mengatur warna teks menjadi abu gelap */
+  font-size: 18px; /* Mengatur ukuran font menjadi 18px */
+  margin-bottom: 10px; /* Memberi jarak bawah 10px dari elemen setelahnya */
+}
+
+form {
+  display: flex; /* Menggunakan layout flexbox untuk form */
+  flex-direction: column; /* Menyusun elemen di dalam form secara vertikal (kolom) */
+}
+
+label {
+  font-weight: bold; /* Membuat teks label menjadi tebal */
+  margin-top: 6px; /* Memberikan jarak atas sebesar 6px dari elemen sebelumnya */
+  color: #333; /* Mengatur warna teks menjadi abu gelap */
+  font-size: 12px; /* Mengatur ukuran font label menjadi 12px */
+}
+
+input,
+textarea,
+select {
+  padding: 6px; /* Memberikan ruang di dalam elemen input/textarea/select sebesar 6px */
+  margin-top: 4px; /* Memberi jarak atas 4px dari elemen sebelumnya */
+  border: 1px solid #ccc; /* Memberi garis tepi berwarna abu terang */
+  border-radius: 5px; /* Membuat sudut elemen sedikit membulat */
+  font-size: 12px; /* Ukuran font di dalam elemen menjadi 12px */
+}
+
+textarea {
+  resize: vertical; /* Mengizinkan pengguna mengubah ukuran hanya secara vertikal */
+  min-height: 80px; /* Menetapkan tinggi minimum textarea sebesar 80px */
+}
+
+button {
+  margin-top: 10px; /* Memberi jarak atas 10px dari elemen sebelumnya */
+  background-color: #d10a5d; /* Mengatur warna latar belakang tombol menjadi pink tua */
+  color: white; /* Mengatur warna teks tombol menjadi putih */
+  border: none; /* Menghapus border default */
+  padding: 8px; /* Memberi ruang dalam tombol sebesar 8px */
+  cursor: pointer; /* Mengubah kursor menjadi tangan saat diarahkan ke tombol */
+  border-radius: 5px; /* Membulatkan sudut tombol */
+  font-size: 12px; /* Ukuran teks tombol menjadi 12px */
+}
+
+button:hover {
+  background-color: #f898c8; /* Mengubah warna latar tombol saat hover menjadi pink muda */
+}
+
+a {
+  display: block; /* Menjadikan link ditampilkan sebagai blok (agar bisa ditengah) */
+  text-align: center; /* Mengatur teks link agar berada di tengah */
+  margin-top: 8px; /* Memberikan jarak atas 8px dari elemen sebelumnya */
+  text-decoration: none; /* Menghapus garis bawah pada link */
+  color: #007bff; /* Mengatur warna teks link menjadi biru */
+  font-size: 12px; /* Ukuran teks link menjadi 12px */
+}
+
+a:hover {
+  text-decoration: underline; /* Memberi garis bawah pada link saat diarahkan mouse */
+}

@@ -1,84 +1,84 @@
 body {
-  font-family: Arial, sans-serif;
-  background-color: #e6e4e5;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  margin: 0;
+  font-family: Arial, sans-serif; /* Mengatur jenis huruf ke Arial */
+  background-color: #e6e4e5; /* Warna latar belakang abu muda */
+  display: flex; /* Menggunakan Flexbox untuk posisi */
+  justify-content: center; /* Memusatkan secara horizontal */
+  align-items: center; /* Memusatkan secara vertikal */
+  height: 100vh; /* Tinggi penuh layar */
+  margin: 0; /* Menghapus margin bawaan */
 }
 
 .register-container {
-  background: #fff;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-  width: 350px;
-  text-align: center;
+  background: #fff; /* Latar belakang putih */
+  padding: 20px; /* Padding dalam container */
+  border-radius: 10px; /* Sudut dibulatkan */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Bayangan lembut */
+  width: 350px; /* Lebar tetap 350px */
+  text-align: center; /* Teks rata tengah */
 }
 
 h2 {
-  margin-bottom: 20px;
-  color: #333;
+  margin-bottom: 20px; /* Jarak bawah heading */
+  color: #333; /* Warna teks abu gelap */
 }
 
 input[type="text"],
 input[type="email"],
 input[type="password"] {
-  width: calc(100% - 20px);
-  padding: 10px;
-  margin: 5px 0;
-  border: 1px solid #ddd9db;
-  border-radius: 5px;
-  font-size: 16px;
+  width: calc(100% - 20px); /* Lebar penuh dikurangi padding */
+  padding: 10px; /* Padding dalam input */
+  margin: 5px 0; /* Jarak atas bawah antar input */
+  border: 1px solid #ddd9db; /* Border abu muda */
+  border-radius: 5px; /* Sudut input dibulatkan */
+  font-size: 16px; /* Ukuran teks input */
 }
 
 input:focus {
-  border-color: #ff0080;
-  outline: none;
+  border-color: #ff0080; /* Warna border saat input difokus */
+  outline: none; /* Menghapus garis biru default */
 }
 
 button {
-  width: 100%;
-  padding: 10px;
-  background-color: #ff66b2;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  font-size: 16px;
-  cursor: pointer;
-  margin-top: 10px;
+  width: 100%; /* Lebar tombol penuh container */
+  padding: 10px; /* Padding tombol */
+  background-color: #ff66b2; /* Warna latar tombol pink cerah */
+  color: white; /* Warna teks tombol putih */
+  border: none; /* Menghapus border tombol */
+  border-radius: 5px; /* Membulatkan sudut tombol */
+  font-size: 16px; /* Ukuran teks tombol */
+  cursor: pointer; /* Ubah cursor jadi pointer saat hover */
+  margin-top: 10px; /* Jarak atas tombol */
 }
 
 button:hover {
-  background-color: #ff3385;
+  background-color: #ff3385; /* Warna saat tombol di-hover */
 }
 
 p {
-  margin-top: 15px;
-  font-size: 14px;
+  margin-top: 15px; /* Jarak atas paragraf */
+  font-size: 14px; /* Ukuran teks paragraf */
 }
 
 a {
-  color: #ff0080;
-  text-decoration: none;
+  color: #ff0080; /* Warna link pink cerah */
+  text-decoration: none; /* Menghapus garis bawah default */
 }
 
 a:hover {
-  text-decoration: underline;
+  text-decoration: underline; /* Tambah garis bawah saat hover */
 }
 
 .password-container {
-  position: relative;
-  width: 100%;
+  position: relative; /* Untuk mengatur posisi elemen di dalamnya */
+  width: 100%; /* Lebar penuh */
 }
 
 .password-container i {
-  position: absolute;
-  right: 10px;
-  top: 50%;
-  transform: translateY(-50%); /* Supaya di tengah */
-  cursor: pointer;
-  font-size: 18px;
-  color: #7c7b7b;
+  position: absolute; /* Posisi absolut terhadap container */
+  right: 10px; /* Meletakkan ikon di kanan */
+  top: 50%; /* Di tengah vertikal */
+  transform: translateY(-50%); /* Koreksi agar benar-benar di tengah */
+  cursor: pointer; /* Ubah kursor jadi pointer */
+  font-size: 18px; /* Ukuran ikon */
+  color: #7c7b7b; /* Warna abu tua untuk ikon */
 }

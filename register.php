@@ -90,8 +90,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             </div>
             <br><br>
 
-
-
             <button type="submit">Daftar</button> <!-- Tombol submit -->
         </form>
 

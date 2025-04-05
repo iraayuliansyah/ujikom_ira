@@ -1,48 +1,48 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
+  margin: 0; /* Menghapus margin default semua elemen */
+  padding: 0; /* Menghapus padding default semua elemen */
+  box-sizing: border-box; /* Memastikan padding & border tidak menambah ukuran elemen */
+  font-family: Arial, sans-serif; /* Mengatur font default ke Arial */
 }
 
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #f4f4f4;
+  display: flex; /* Menggunakan Flexbox untuk layout */
+  justify-content: center; /* Menempatkan konten di tengah secara horizontal */
+  align-items: center; /* Menempatkan konten di tengah secara vertikal */
+  height: 100vh; /* Mengisi seluruh tinggi viewport */
+  background-color: #f4f4f4; /* Warna latar belakang abu terang */
 }
 
 .container {
-    text-align: center;
-    background: white;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-    max-width: 400px;
+  text-align: center; /* Menengahkan semua teks di dalam container */
+  background: white; /* Warna latar belakang putih */
+  padding: 30px; /* Ruang dalam container */
+  border-radius: 10px; /* Sudut elemen dibulatkan */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Efek bayangan halus */
+  max-width: 400px; /* Lebar maksimum container */
 }
 
 h2 {
-    color: #333;
-    margin-bottom: 10px;
+  color: #333; /* Warna teks abu tua */
+  margin-bottom: 10px; /* Jarak bawah dari elemen setelahnya */
 }
 
 p {
-    color: #666;
-    margin-bottom: 20px;
+  color: #666; /* Warna teks abu sedang */
+  margin-bottom: 20px; /* Jarak bawah dari elemen setelahnya */
 }
 
 .btn {
-    display: inline-block;
-    padding: 10px 20px;
-    font-size: 16px;
-    text-decoration: none;
-    background: #007bff;
-    color: white;
-    border-radius: 5px;
-    transition: 0.3s;
+  display: inline-block; /* Membuat tombol tetap dalam satu baris */
+  padding: 10px 20px; /* Ruang dalam tombol secara vertikal dan horizontal */
+  font-size: 16px; /* Ukuran teks tombol */
+  text-decoration: none; /* Menghapus garis bawah dari link */
+  background: #007bff; /* Warna latar belakang biru */
+  color: white; /* Warna teks putih */
+  border-radius: 5px; /* Membulatkan sudut tombol */
+  transition: 0.3s; /* Animasi transisi untuk efek hover */
 }
 
 .btn:hover {
-    background: #0056b3;
+  background: #0056b3; /* Warna tombol menjadi lebih gelap saat dihover */
 }

@@ -1,94 +1,94 @@
 body,
 html {
-  margin: 0;
-  padding: 0;
-  font-family: Arial, sans-serif;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #e4e0e2;
+  margin: 0; /* Menghapus margin bawaan browser */
+  padding: 0; /* Menghapus padding bawaan browser */
+  font-family: Arial, sans-serif; /* Mengatur font utama */
+  height: 100%; /* Mengisi tinggi penuh layar */
+  display: flex; /* Menggunakan Flexbox untuk layout */
+  justify-content: center; /* Mengatur agar konten berada di tengah horizontal */
+  align-items: center; /* Mengatur agar konten berada di tengah vertikal */
+  background-color: #e4e0e2; /* Warna latar belakang halaman */
 }
 
 a {
-  color: #ff0080;
-  text-decoration: none;
+  color: #ff0080; /* Warna link pink terang */
+  text-decoration: none; /* Menghapus garis bawah pada link */
 }
 
 /* Form Container */
 .login-container {
-  background-color: rgb(255, 255, 255);
-  padding: 40px;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  width: 100%;
-  max-width: 400px;
-  text-align: center;
+  background-color: rgb(255, 255, 255); /* Latar belakang putih untuk form */
+  padding: 40px; /* Memberi ruang di dalam container */
+  border-radius: 8px; /* Membuat sudut form melengkung */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Efek bayangan lembut */
+  width: 100%; /* Lebar penuh dalam batas max-width */
+  max-width: 400px; /* Maksimal lebar container */
+  text-align: center; /* Konten dalam container berada di tengah */
 }
 
 input[type="email"],
 input[type="password"] {
-  width: 100%;
-  padding: 12px;
-  margin: 10px 0;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  box-sizing: border-box;
-  font-size: 16px;
+  width: 100%; /* Mengisi lebar penuh container */
+  padding: 12px; /* Memberi ruang dalam input */
+  margin: 10px 0; /* Memberi jarak vertikal antara input */
+  border: 1px solid #ddd; /* Garis tepi abu terang */
+  border-radius: 4px; /* Sudut input sedikit melengkung */
+  box-sizing: border-box; /* Padding & border dimasukkan dalam ukuran total */
+  font-size: 16px; /* Ukuran teks input */
 }
 
 input[type="email"]:focus,
 input[type="password"]:focus {
-  border-color: #ff66b2;
-  outline: none;
+  border-color: #ff66b2; /* Warna garis tepi berubah saat input aktif */
+  outline: none; /* Menghapus garis fokus default browser */
 }
 
 button {
-  width: 100%;
-  padding: 14px;
-  background-color: #ff66b2;
-  color: white;
-  border: none;
-  border-radius: 4px;
-  font-size: 16px;
-  cursor: pointer;
+  width: 100%; /* Tombol mengisi seluruh lebar container */
+  padding: 14px; /* Memberi ruang dalam tombol */
+  background-color: #ff66b2; /* Warna latar tombol pink terang */
+  color: white; /* Warna teks tombol putih */
+  border: none; /* Menghapus garis tepi */
+  border-radius: 4px; /* Membulatkan sudut tombol */
+  font-size: 16px; /* Ukuran teks tombol */
+  cursor: pointer; /* Mengubah kursor menjadi pointer saat diarahkan */
 }
 
 button:hover {
-  background-color: #da4d9f;
+  background-color: #da4d9f; /* Warna tombol saat hover (lebih gelap) */
 }
 
 .error-message {
-  color: red;
-  margin-top: 10px;
+  color: red; /* Warna pesan error merah */
+  margin-top: 10px; /* Jarak atas dari elemen sebelumnya */
 }
 
 .login-container a:hover {
-  text-decoration: underline;
+  text-decoration: underline; /* Menambahkan garis bawah saat link di-hover */
 }
 
 .password-container {
-  position: relative;
-  width: 100%;
-  display: flex;
-  align-items: center;
+  position: relative; /* Untuk posisi absolut ikon mata */
+  width: 100%; /* Mengisi lebar penuh container */
+  display: flex; /* Menggunakan Flexbox */
+  align-items: center; /* Pusatkan elemen secara vertikal */
 }
 
 .password-container input {
-  flex: 1; /* Pastikan input menyesuaikan lebar tanpa berubah */
-  padding: 12px;
-  padding-right: 40px; /* Beri ruang untuk ikon */
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  box-sizing: border-box;
-  font-size: 16px;
-  font-family: Arial, sans-serif; /* Pastikan font tetap */
+  flex: 1; /* Input mengambil seluruh ruang yang tersedia */
+  padding: 12px; /* Memberi ruang dalam input */
+  padding-right: 40px; /* Tambahan ruang untuk ikon mata di sebelah kanan */
+  border: 1px solid #ddd; /* Garis tepi abu terang */
+  border-radius: 4px; /* Membulatkan sudut input */
+  box-sizing: border-box; /* Ukuran total termasuk padding dan border */
+  font-size: 16px; /* Ukuran teks input */
+  font-family: Arial, sans-serif; /* Pastikan font tetap konsisten */
 }
 
 .password-container i {
-  position: absolute;
-  right: 12px;
-  cursor: pointer;
-  font-size: 18px;
-  color: #777;
+  position: absolute; /* Menempatkan ikon secara absolut di dalam input */
+  right: 12px; /* Jarak ikon dari sisi kanan */
+  cursor: pointer; /* Kursor menjadi pointer saat diarahkan */
+  font-size: 18px; /* Ukuran ikon */
+  color: #777; /* Warna abu-abu ikon */
 }

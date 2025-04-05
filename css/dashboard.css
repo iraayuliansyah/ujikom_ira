@@ -1,200 +1,203 @@
 /* Styling Umum */
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
-  margin: 0;
-  padding: 0;
-  text-align: center;
+  font-family: Arial, sans-serif; /* Mengatur jenis huruf utama menjadi Arial, atau sans-serif jika Arial tidak tersedia */
+  background-color: #f4f4f4; /* Memberi warna latar belakang halaman dengan abu-abu terang */
+  margin: 0; /* Menghilangkan margin default dari browser */
+  padding: 0; /* Menghilangkan padding default dari browser */
+  text-align: center; /* Mengatur semua teks agar berada di tengah */
 }
 
 /* Styling Header */
 .header {
-  text-align: center;
-  margin-bottom: 20px;
+  text-align: center; /* Teks di dalam header berada di tengah */
+  margin-bottom: 20px; /* Memberi jarak bawah sebesar 20px dari elemen setelahnya */
 }
 
 .navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 20px;
-  background-color: #333; /* Warna latar belakang navbar */
+  display: flex; /* Menggunakan flexbox untuk membuat layout horizontal */
+  justify-content: space-between; /* Menyusun elemen dengan jarak di antara sisi kiri dan kanan */
+  align-items: center; /* Menyusun elemen agar sejajar secara vertikal */
+  padding: 10px 20px; /* Memberi padding atas-bawah 10px dan kiri-kanan 20px */
+  background-color: #333; /* Warna latar belakang navbar menjadi abu tua */
 }
 
 .navbar h2 {
-  margin: 0;
-  color: #ccc;
+  margin: 0; /* Menghilangkan margin default heading */
+  color: #ccc; /* Mengatur warna teks menjadi abu terang */
 }
 
 .nav-right {
-  display: flex;
-  align-items: center;
-  gap: 10px; /* Jarak antar elemen */
+  display: flex; /* Menyusun isi nav-right secara horizontal */
+  align-items: center; /* Menyelaraskan elemen secara vertikal */
+  gap: 10px; /* Memberi jarak antar elemen di dalam nav-right sebesar 10px */
 }
 
 .user-info {
-  color: white;
-  margin: 0;
+  color: white; /* Mengatur warna teks user-info menjadi putih */
+  margin: 0; /* Menghilangkan margin bawaan */
 }
 
 .header p {
-  font-size: 16px;
-  color: white;
+  font-size: 16px; /* Ukuran font paragraf di dalam header sebesar 16px */
+  color: white; /* Warna teks menjadi putih */
 }
 
 /* Styling Tombol Tambah Tugas */
 .btn-add {
-  background-color: #e6007e;
-  color: white;
-  padding: 8px 15px;
-  border-radius: 5px;
-  text-decoration: none;
+  background-color: #e6007e; /* Warna latar belakang tombol menjadi pink tua */
+  color: white; /* Warna teks tombol menjadi putih */
+  padding: 8px 15px; /* Memberi ruang dalam tombol (atas-bawah 8px, kiri-kanan 15px) */
+  border-radius: 5px; /* Membuat sudut tombol sedikit membulat */
+  text-decoration: none; /* Menghapus garis bawah pada tombol yang berupa link */
 }
 
 .btn-add:hover {
-  background: #f55f9b;
+  background: #f55f9b; /* Mengubah warna latar belakang tombol saat hover menjadi pink terang */
 }
 
 /* Styling Container Kolom */
 .container {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  flex-wrap: wrap;
+  display: flex; /* Menggunakan flexbox untuk membuat layout kolom */
+  justify-content: center; /* Menempatkan semua kolom di tengah secara horizontal */
+  gap: 20px; /* Memberikan jarak antar kolom sebesar 20px */
+  flex-wrap: wrap; /* Membungkus kolom ke baris berikutnya jika layar tidak cukup lebar */
 }
 
 .column {
-  flex: 1;
-  min-width: 320px;
-  padding: 15px;
-  background: #ebe8e8;
-  border-radius: 8px;
-  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
-  text-align: center;
+  flex: 1; /* Membuat kolom fleksibel agar menyesuaikan ruang yang tersedia */
+  min-width: 320px; /* Lebar minimum kolom adalah 320px agar tetap rapi di layar kecil */
+  padding: 15px; /* Memberi ruang dalam kolom sebesar 15px */
+  background: #ebe8e8; /* Warna latar kolom abu-abu muda */
+  border-radius: 8px; /* Membuat sudut kolom membulat */
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* Memberikan bayangan halus untuk efek kedalaman */
+  text-align: center; /* Menengahkan isi teks dalam kolom */
 }
 
 /* Styling Kartu Tugas */
 .task {
-  background: #f9f9f9;
-  padding: 15px;
-  margin: 15px 0;
-  border-radius: 8px;
-  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+  background: #f9f9f9; /* Warna latar kartu tugas putih keabu-abuan */
+  padding: 15px; /* Memberi ruang di dalam kartu sebesar 15px */
+  margin: 15px 0; /* Memberi jarak vertikal 15px di atas dan bawah kartu */
+  border-radius: 8px; /* Membulatkan sudut kartu tugas */
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1); /* Memberi bayangan lembut untuk efek mengambang */
 }
 
 .task h4 {
-  margin-bottom: 5px;
+  margin-bottom: 5px; /* Memberi jarak bawah 5px dari elemen berikutnya */
 }
 
 /* Styling Tombol Pindah Status */
 .btn-move {
-  background: #fc78af;
-  color: white;
-  width: 100%;
-  padding: 10px;
-  border-radius: 5px;
-  font-size: 14px;
+  background: #fc78af; /* Warna latar tombol status pink terang */
+  color: white; /* Warna teks tombol putih */
+  width: 100%; /* Tombol memenuhi lebar kontainer */
+  padding: 10px; /* Memberi ruang dalam tombol sebesar 10px */
+  border-radius: 5px; /* Membulatkan sudut tombol */
+  font-size: 14px; /* Ukuran teks tombol 14px */
 }
 
 .btn-move:hover {
-  background: #faaece;
+  background: #faaece; /* Warna latar tombol saat hover menjadi pink lebih terang */
 }
 
 /* Styling Tombol Edit & Hapus */
 .task-actions {
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-  margin-top: 10px;
+  display: flex; /* Mengatur agar elemen di dalamnya tersusun horizontal */
+  justify-content: center; /* Menengahkan tombol di dalam container */
+  gap: 10px; /* Memberi jarak antar tombol sebesar 10px */
+  margin-top: 10px; /* Memberikan jarak atas dari elemen sebelumnya */
 }
 
 .btn-edit {
-  background: #2812f1;
-  color: white;
-  padding: 8px 12px;
-  border-radius: 5px;
+  background: #2812f1; /* Warna latar belakang tombol edit biru */
+  color: white; /* Warna teks putih */
+  padding: 8px 12px; /* Memberi ruang dalam tombol (atas-bawah 8px, kiri-kanan 12px) */
+  border-radius: 5px; /* Membulatkan sudut tombol */
 }
 
 .btn-delete {
-  background: #dc3545;
-  color: white;
-  padding: 8px 12px;
-  border-radius: 5px;
+  background: #dc3545; /* Warna latar tombol hapus merah */
+  color: white; /* Warna teks putih */
+  padding: 8px 12px; /* Memberi ruang dalam tombol */
+  border-radius: 5px; /* Membulatkan sudut tombol */
 }
 
 .btn-edit:hover {
-  background: #3e29fd;
+  background: #3e29fd; /* Warna tombol edit saat hover menjadi biru lebih terang */
 }
 
 .btn-delete:hover {
-  background: #a71d2a;
+  background: #a71d2a; /* Warna tombol hapus saat hover menjadi merah gelap */
 }
 
 /* Styling Tombol Logout */
 .btn-logout {
-  background-color: red;
-  color: white;
-  padding: 8px 15px;
-  border-radius: 5px;
-  text-decoration: none;
+  background-color: red; /* Warna latar tombol logout merah */
+  color: white; /* Warna teks putih */
+  padding: 8px 15px; /* Memberi ruang dalam tombol */
+  border-radius: 5px; /* Membulatkan sudut tombol */
+  text-decoration: none; /* Menghapus garis bawah jika tombol berupa link */
 }
 
 .btn-logout:hover {
-  background-color: #363434;
+  background-color: #363434; /* Mengubah warna latar saat hover menjadi abu gelap */
 }
 
 /* Responsif */
 @media (max-width: 768px) {
   .container {
-    flex-direction: column;
-    align-items: center;
+    flex-direction: column; /* Susun kolom secara vertikal pada layar kecil */
+    align-items: center; /* Menengahkan isi container */
   }
 
   .column {
-    width: 90%;
+    width: 90%; /* Atur lebar kolom menjadi 90% dari lebar layar */
   }
 
   .task-actions {
-    flex-direction: row;
-    justify-content: center;
+    flex-direction: row; /* Tetap horizontal untuk tombol edit dan hapus */
+    justify-content: center; /* Menengahkan tombol */
   }
 
   .btn-move {
-    width: auto;
+    width: auto; /* Biarkan tombol pindah menyesuaikan ukuran kontennya */
   }
 }
 
+/* Styling Dropdown Status */
 .status-select {
-  padding: 5px;
-  font-size: 14px;
-  margin-right: 8px;
-  border-radius: 5px;
+  padding: 5px; /* Memberi ruang di dalam dropdown */
+  font-size: 14px; /* Ukuran teks dropdown */
+  margin-right: 8px; /* Jarak kanan antar elemen */
+  border-radius: 5px; /* Membulatkan sudut dropdown */
 }
 
+/* Styling Iframe */
 iframe {
-  width: 100%;
-  height: 200px;
-  border: 1px solid #ccc;
-  transition: height 0.3s ease-in-out;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 100%; /* Lebar iframe mengikuti lebar kontainernya */
+  height: 200px; /* Tinggi awal iframe */
+  border: 1px solid #ccc; /* Garis tepi abu terang */
+  transition: height 0.3s ease-in-out; /* Animasi perubahan tinggi iframe */
+  border-radius: 8px; /* Membulatkan sudut iframe */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Bayangan lembut di sekitar iframe */
 }
 
+/* Styling Pagination */
 .pagination {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 10px;
+  display: flex; /* Menggunakan flexbox untuk layout pagination */
+  justify-content: space-between; /* Meletakkan elemen ke kiri dan kanan */
+  align-items: center; /* Menyelaraskan elemen secara vertikal */
+  margin-top: 10px; /* Jarak atas dari elemen sebelumnya */
 }
 
 .pagination a {
-  padding: 8px 12px;
-  background-color: #007bff;
-  color: white;
-  text-decoration: none;
-  border-radius: 4px;
+  padding: 8px 12px; /* Memberi ruang dalam tombol pagination */
+  background-color: #007bff; /* Warna latar tombol pagination biru */
+  color: white; /* Warna teks putih */
+  text-decoration: none; /* Menghapus garis bawah */
+  border-radius: 4px; /* Membulatkan sudut tombol */
 }
 
 .pagination span {
-  font-size: 14px;
+  font-size: 14px; /* Ukuran teks penanda halaman */
 }

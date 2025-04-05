@@ -1,83 +1,83 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #eef2f7;
-    margin: 0;
-    padding: 8px;
-  }
-  
-  .container {
-    max-width: 400px;
-    background: white;
-    padding: 12px;
-    margin: 0 auto;
-    border-radius: 8px;
-    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
-  }
-  
-  h2 {
-    text-align: center;
-    color: #333;
-    font-size: 18px;
-    margin-bottom: 10px;
-  }
-  
-  form {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  label {
-    font-weight: bold;
-    margin-top: 6px;
-    color: #333;
-    font-size: 12px;
-  }
-  
-  input,
-  textarea {
-    padding: 5px;
-    margin-top: 3px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 12px;
-    max-width: 100%;
-  }
-  
-  input:focus,
-  textarea:focus {
-    border-color: #cf497c;
-    outline: none;
-  }
-  
-  textarea {
-    resize: vertical;
-    min-height: 80px;
-  }
-  
-  button {
-    margin-top: 10px;
-    background-color: #db0b73;
-    color: white;
-    border: none;
-    padding: 6px;
-    cursor: pointer;
-    border-radius: 5px;
-    font-size: 12px;
-  }
-  
-  button:hover {
-    background-color: #f15aa6;
-  }
-  
-  a {
-    display: block;
-    text-align: center;
-    margin-top: 8px;
-    text-decoration: none;
-    color: #007bff;
-    font-size: 12px;
-  }
-  
-  a:hover {
-    text-decoration: underline;
-  }
+  font-family: Arial, sans-serif; /* Mengatur jenis huruf utama menjadi Arial atau sans-serif */
+  background-color: #eef2f7; /* Memberikan warna latar belakang halaman abu kebiruan */
+  margin: 0; /* Menghapus margin default dari browser */
+  padding: 8px; /* Memberi ruang di tepi luar isi halaman */
+}
+
+.container {
+  max-width: 400px; /* Mengatur lebar maksimum container agar tidak terlalu lebar */
+  background: white; /* Memberikan warna latar putih untuk container */
+  padding: 12px; /* Memberi ruang di dalam container */
+  margin: 0 auto; /* Membuat container berada di tengah secara horizontal */
+  border-radius: 8px; /* Membulatkan sudut container */
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1); /* Menambahkan bayangan halus untuk efek elevasi */
+}
+
+h2 {
+  text-align: center; /* Membuat judul berada di tengah */
+  color: #333; /* Warna teks abu gelap */
+  font-size: 18px; /* Ukuran teks judul */
+  margin-bottom: 10px; /* Jarak bawah dari elemen setelahnya */
+}
+
+form {
+  display: flex; /* Menggunakan flexbox untuk layout form */
+  flex-direction: column; /* Menyusun elemen form secara vertikal */
+}
+
+label {
+  font-weight: bold; /* Membuat teks label menjadi tebal */
+  margin-top: 6px; /* Jarak atas dari elemen sebelumnya */
+  color: #333; /* Warna teks label abu gelap */
+  font-size: 12px; /* Ukuran teks label kecil */
+}
+
+input,
+textarea {
+  padding: 5px; /* Memberikan ruang dalam input dan textarea */
+  margin-top: 3px; /* Jarak atas dari label sebelumnya */
+  border: 1px solid #ccc; /* Memberikan garis tepi abu terang */
+  border-radius: 5px; /* Membulatkan sudut input dan textarea */
+  font-size: 12px; /* Ukuran teks kecil */
+  max-width: 100%; /* Lebar maksimal mengikuti kontainernya */
+}
+
+input:focus,
+textarea:focus {
+  border-color: #cf497c; /* Mengubah warna border saat elemen aktif menjadi pink */
+  outline: none; /* Menghapus outline bawaan browser */
+}
+
+textarea {
+  resize: vertical; /* Membolehkan textarea diubah ukurannya secara vertikal */
+  min-height: 80px; /* Tinggi minimum textarea */
+}
+
+button {
+  margin-top: 10px; /* Memberi jarak atas tombol dari elemen sebelumnya */
+  background-color: #db0b73; /* Warna latar belakang tombol (pink tua) */
+  color: white; /* Warna teks tombol putih */
+  border: none; /* Menghapus garis tepi tombol */
+  padding: 6px; /* Memberikan ruang dalam tombol */
+  cursor: pointer; /* Mengubah kursor jadi pointer saat diarahkan ke tombol */
+  border-radius: 5px; /* Membulatkan sudut tombol */
+  font-size: 12px; /* Ukuran teks tombol kecil */
+}
+
+button:hover {
+  background-color: #f15aa6; /* Warna latar tombol berubah saat hover menjadi pink terang */
+}
+
+a {
+  display: block; /* Menjadikan elemen <a> tampil sebagai blok */
+  text-align: center; /* Mengatur teks link agar berada di tengah */
+  margin-top: 8px; /* Memberi jarak atas dari elemen sebelumnya */
+  text-decoration: none; /* Menghapus garis bawah pada link */
+  color: #007bff; /* Warna teks biru (standar link) */
+  font-size: 12px; /* Ukuran teks kecil */
+}
+
+a:hover {
+  text-decoration: underline; /* Menambahkan garis bawah saat link dihover */
+}
