@@ -37,12 +37,12 @@ p {
   padding: 10px 20px; /* Ruang dalam tombol secara vertikal dan horizontal */
   font-size: 16px; /* Ukuran teks tombol */
   text-decoration: none; /* Menghapus garis bawah dari link */
-  background: #007bff; /* Warna latar belakang biru */
+  background: #ff66b2; /* Warna latar belakang biru */
   color: white; /* Warna teks putih */
   border-radius: 5px; /* Membulatkan sudut tombol */
   transition: 0.3s; /* Animasi transisi untuk efek hover */
 }
 
 .btn:hover {
-  background: #0056b3; /* Warna tombol menjadi lebih gelap saat dihover */
+  background: #ff3385; /* Warna tombol menjadi lebih gelap saat dihover */
 }

@@ -18,12 +18,12 @@ body {
   justify-content: space-between; /* Menyusun elemen dengan jarak di antara sisi kiri dan kanan */
   align-items: center; /* Menyusun elemen agar sejajar secara vertikal */
   padding: 10px 20px; /* Memberi padding atas-bawah 10px dan kiri-kanan 20px */
-  background-color: #333; /* Warna latar belakang navbar menjadi abu tua */
+  background-color: #a7a6a6; /* Warna latar belakang navbar menjadi abu tua */
 }
 
 .navbar h2 {
   margin: 0; /* Menghilangkan margin default heading */
-  color: #ccc; /* Mengatur warna teks menjadi abu terang */
+  color: #fcfafa; /* Mengatur warna teks menjadi abu terang */
 }
 
 .nav-right {
